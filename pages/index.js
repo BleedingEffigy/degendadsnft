@@ -30,13 +30,28 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className='text-7xl'>ASCII PUNKS</h1>
+      <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
         
-        <div>
-
-
-        </div>
+        <section class="text-gray-400 bg-gray-900 body-font bg-fixed relative min-h-[90vh] w-full" style={{backgroundImage: "url('/weedstrainsnftbg.png')"}}>
+          <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center min-w-full bg-gradient-to-r from-cyan-500/50 via-blue-500/50 to-blue-500/80   min-h-[90vh]">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+              <h1 class="title-font sm:text-7xl text-5xl mb-4 font-medium text-white z-50">WEED STRAINS NFT
+                <br class="hidden lg:inline-block"/><span class='title-font sm:text-6xl text-4xl mb-4 font-medium text-white'>Let's get high together.</span>
+              </h1>
+              <p class="mb-8 leading-relaxed text-2xl z-50">
+              Find your perfect strain or strains that you already enjoy. 
+             Here, you can learn more about this wonderful higher world of smoke. 
+              </p>
+              <div class="flex justify-center">
+                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button>
+              </div>
+            </div>
+            <div class="lg:max-w-2xl lg:w-full md:w-1/2 w-5/6 absolute inset-y-0 -right-2">
+              <img class="object-cover object-center rounded z-10 min-h-[75vh]" alt="hero" src="8.jpg"/>
+            </div>
+          </div>
+        </section>
 
       </main>
 
