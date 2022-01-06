@@ -30,21 +30,21 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
         
         <section class="text-gray-400 bg-gray-900 body-font bg-fixed relative min-h-[90vh] w-full" style={{backgroundImage: "url('/weedstrainsnftbg2.png')"}}>
-          <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center min-w-full bg-gradient-to-r from-cyan-500/50 via-blue-500/50 to-blue-500/80   min-h-[90vh]">
-            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 class="title-font sm:text-7xl text-5xl mb-4 font-medium bg-gray-900 p-5 rounded-lg text-white z-50">WEED STRAINS NFT
+          <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center min-w-full bg-gradient-to-r from-cyan-500/50 via-blue-500/50 to-blue-500/80 min-h-[90vh]">
+            <div class=" md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center bg-gray-900 rounded-lg p-4 z-20">
+              <h1 class="title-font sm:text-7xl text-5xl mb-4 font-medium p-5 text-white z-50">WEEDSTRAINS NFT
                 <br class="hidden lg:inline-block"/><span class='title-font sm:text-6xl text-4xl mb-4 font-medium text-white'>Let's get high together.</span>
               </h1>
-              <p class="mb-8 leading-relaxed text-2xl font-bold z-50 text-black/90">
+              <p class="mb-8 leading-relaxed text-2xl font-bold z-50 text-white/90">
               Find your perfect strain or strains that you already enjoy.
               </p>
               <div class="flex justify-center">
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-                <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button>
+                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Mint</button>
+                <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">OpenSea</button>
               </div>
             </div>
             <div class="lg:max-w-2xl lg:w-full md:w-1/2 w-5/6 absolute inset-y-0 -right-2">
-              <img class="object-cover object-center rounded z-10 min-h-[110vh]" alt="hero" src="8.jpg"/>
+              <img class="object-cover object-center rounded-tl-[50%] z-10 min-h-[110vh]" alt="hero" src="8.jpg"/>
             </div>
           </div>
         </section>
